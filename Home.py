@@ -6,5 +6,5 @@ st.set_page_config(
 )
 
 st.write("# Welcome to Streamlit! 👋")
-st.header('Built and maintained by Sweta Kumari')
+st.text('Built and maintained by Sweta Kumari')
 st.sidebar.success("Select a demo above.")
