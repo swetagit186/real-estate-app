@@ -6,7 +6,7 @@ import seaborn as sns
 import os
 
 csv_path ="data_viz1.csv"
-new_df = pd.read_csv("/Users/swetakumari/PycharmProjects/CapstoneProjectSweta/datasets/data_viz1.csv")
+new_df = pd.read_csv("datasets/data_viz1.csv")
 
 sector_options = new_df['sector'].unique().tolist()
 sector_options.insert(0,'overall')
