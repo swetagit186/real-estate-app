@@ -129,7 +129,7 @@ import pickle
 from wordcloud import WordCloud
 
 csv_path ="data_viz1.csv"
-new_df = pd.read_csv("/Users/swetakumari/PycharmProjects/capstoneNitish/datasets/data_viz1.csv")
+new_df = pd.read_csv("datasets/data_viz1.csv")
 
 feature_text = pickle.load(open('datasets/feature_text.pkl','rb'))
 
